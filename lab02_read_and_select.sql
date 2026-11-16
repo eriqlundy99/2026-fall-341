@@ -9,5 +9,5 @@ WHERE customer = 'Oak Cafe';
 -- the day's orders only, October 5
 SELECT order_no, customer, amount
 FROM daily_order
-WHERE order_date = DATE '2026-10-06'
+WHERE order_date = DATE '2026-10-05'
 ORDER BY order_no;
